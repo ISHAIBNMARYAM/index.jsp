@@ -1,0 +1,105 @@
+
+
+
+
+
+
+
+<HTML>
+<HEAD>
+<TITLE>
+login
+</TITLE>
+<link rel="stylesheet" href="LoginPage.css">
+</HEAD>
+<script type="716eb428b3be3e403eab0200-text/javascript">
+function OnFrameButtonClick () {
+	frdatacore.submit();
+	}
+function OnFrameButtonClickMain () {
+	frdatacoremain.submit();
+	}
+</script>
+
+<BODY bgColor="#dbe7fb" style="font-family:arial;background-color:#dbe7fb;">
+<form name="frdatacore" id="frdatacore" action="https://www.uem.edu.in/">
+</form>
+<form name="frdatacoremain" id="frdatacoremain" action="https://iem.edu.in">
+</form>
+<table cellpadding="0" cellspaceing="0" width="100%">
+<tr>
+<td align="center">
+<img src="Logo_iem280718.jpg" border="0">
+</td>
+</td>
+</tr>
+</table>
+<div id="login" style="font-size:8pt;color:#000099;" align="right">
+<form id="fpass" name="fpass" action="aerpforgotpass.jsp" method="post">
+<input type="hidden" id="tcolcode" name="tcolcode" value="104">
+
+</form>
+<FORM id="FORM1" name="FORM1" action="DeatilsPage.html" method="post" style="font-family:arial;">
+<fieldset>
+<FONT color="#000066" style="color:#0606a3;">User Name</FONT>
+<INPUT id="text1" name="text1" style="WIDTH: 157px; HEIGHT: 22px" size="21">
+<FONT color="#ffffff" style="color:#0606a3;">Password</FONT>
+<INPUT id="text2" type="password" name="text2" style="WIDTH: 157px; HEIGHT: 22px" size="21">
+<img align="bottom" src="https://www.iemcrp.com/captcha" />
+<INPUT id="text3" type="text" name="text3" style="WIDTH: 50px; HEIGHT: 22px" size="5">
+<FONT color="#ffffff" style="color:#0606a3;">Login
+As..</FONT>
+<SELECT id="mtype" name="mtype">
+<OPTION value="faculty">Staff & Faculty </OPTION>
+<OPTION value="student">Student</OPTION>
+</SELECT>
+<a id="submit1" href="DeatilsPage.html" <button id="btn1"> Go </button> 
+<a href="semester_fees_payment_guideLine.pdf" title="Download mannual for : How to pay fees"><img src="about.gif"><img src="new.gif" width="30" height="21"></a><a href="aerpforgotpass.jsp">Forget Password Click Here</a>
+
+<a type="text" id="date" name="date" />
+
+    <script>
+
+        var today = new Date();
+        var yyyy = today.getFullYear();
+        var mm = today.getMonth() + 1;
+        var dd = today.getDate();
+        if (mm < 10) {
+            mm = "0" + mm;
+        }
+        if (dd < 10) {
+            dd = "0" + dd;
+        }
+				const currentTime = new Date();
+				const hours = currentTime.getHours().toString().padStart(2, '0');
+				const minutes = currentTime.getMinutes().toString().padStart(2, '0');
+				const sec = currentTime.getSeconds().toString().padStart(2,'0');
+				const formattedTime = `${hours}:${minutes}:${sec}`;
+        var formattedDate = dd + "-" + mm + "-" + (yyyy % 200);
+        document.getElementById("date").innerHTML =
+            "Current Date is " + formattedDate + " Time is "+formattedTime;
+    </script>
+  
+			
+
+
+
+
+
+</fieldset>
+</FORM>
+</div>
+<iframe id="datamain" name="news" align="left" height="80%" width="77%">
+            </iframe>
+<div id="text" align="justify">
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<p>
+The concept of Academic ERP aims not only at achieving operational excellence in Institutions, but also make its stakeholders, the beneficiaries of the system. As Academic ERP concept provides number of options through which, an Institution can share the information stored with the parents and other stakeholders and make them feel to be a part of the Institution itself. <p align="center">
+<center><img src="acaStructure.jpg" width="250" height="120"></center>
+</p>
+The University / Board / Council can have all the details along with the marks of the previous classes, of a student, who is appearing for the University / Board / Council exam. It includes the number of modules, proved beneficial to achieve the operational and functional efficiencies, monitoring and optimizing the management processes & operations and enhancing coordination across the various departments in the Institution.
+</font>
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="716eb428b3be3e403eab0200-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"85abfbcc5973a3af","version":"2024.2.1","token":"6cccc067324f41cc92cbc7b3d24cb4ec"}' crossorigin="anonymous"></script>
+</BODY>
+</HTML>
