@@ -1,0 +1,36 @@
+#submit1 {
+  appearance: auto;
+  text-decoration: none;
+  user-select: none;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  white-space: pre;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 1px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+#btn1 {
+  /* appearance: auto;
+  user-select: none;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  box-sizing: border-box;
+  background-color: buttonface;
+  color: buttontext;
+  white-space: pre;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-width: 2px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial; */
+}
